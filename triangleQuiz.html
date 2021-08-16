@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<link rel="stylesheet" href="triangleQuiz.css">
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Samkit Jain</div>
+        <ul class="list-non-bullet nav-pills">
+            <!-- <li class="list-item-inline extra">
+                Adarsh Balak
+            </li> -->
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/areaTriangle.html">Area Of Rectangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/calHypo.html">Calculate Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/isTriangle.html">Is It a triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/triangleQuiz.html">Quiz on Triangle</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="containerr">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="class-container">
+                <p>Q.1) what is the third angle of the triangle where rest 2 angles are 60 and 45</p>
+                <label><input type="radio" name="q1" value="45">45</label>
+                <label><input type="radio" name="q1" value="60">60</label>
+                <label><input type="radio" name="q1" value="75">75</label>
+            </div>
+            <div class="class-container">
+                <p>Q.2) if a triangle angle is 90 degree than what that triangle is called..??</p>
+                <label><input type="radio" name="q2" value="acute">acute</label>
+                <label><input type="radio" name="q2" value="obtuse">obtuse</label>
+                <label><input type="radio" name="q2" value="right-angled">right-angled</label>
+            </div>
+            <div class="class-container">
+                <p>Q.3) what a triangle with all sides of equal length called??</p>
+                <label><input type="radio" name="q3" value="equilateral">equilateral</label>
+                <label><input type="radio" name="q3" value="isoceles">isoceles</label>
+                <label><input type="radio" name="q3" value="scalene">scalene</label>
+            </div>
+        </form>
+        <button class="submitBtn">Submit answers</button>
+        <div class="output"></div>
+    </div>
+    
+    <script src="triangleQuiz.js"></script>
+</body>
+
+</html>
